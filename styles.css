@@ -6,17 +6,43 @@
 
 body{
   font-family: "Inter", sans-serif
+
+}
+p{
+  color: rgba(239, 237, 232, 0.65);
 }
 
 /* default styles */
 *{
   margin: 0;
+  background-color: black;
+  color: white;
+  
 }
 
 .container{
-  width: 90%;
+  width: 80%;
   margin: 5rem auto;
-  color: blue;
+}
+
+.btn-primary{
+  border-radius: 42px;
+  background-color: rgb(230, 83, 60);
+  width: 224px;
+  height: 54px;
+  gap: 8px;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* header related styles */
+header{
+
+  background-image: url(./images/Images\ 2.png)
+  height: 90%;
+  width: 100%;
 }
 
 
@@ -32,11 +58,116 @@ body{
   display: flex;
   justify-content: space-evenly;
   gap: 47px;
-  
 }
 
 .nav-menu span{
-  border-radius: 3rem;
+  border-radius: 46px;
   background: rgb(230, 83, 60);
   padding: 8px 20px 8px 20px;
+}
+
+.brand-name{
+  color: rgb(230, 83, 60);
+  font-style: italic;
+}
+
+/* banner related styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h1{
+  width: 520px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: left;
+}
+
+.banner h1 span{
+  font-family: Miama;
+  font-weight: 400;
+  font-size: 78px;
+}
+
+button{
+  border-radius: 42px;
+  width: 224px;
+  height: 54px;
+  margin-left: 1rem;
+  padding: 0.7rem 1.2rem;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid white;
+}
+
+.banner-btn{
+  padding-top: 28px;
+}
+
+.banner-text p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 520px;
+  padding-top: 28px;
+  
+}
+
+.video-tutorial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px ;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  width: 12rem;
+  height: 6rem;
+  position: absolute;
+  top: 70%;
+  left: -20%;
+}
+
+.video-tutorial h4{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.video-tutorial p{
+  font-size: 16px;
+  font-weight:400;
+}
+
+.banner-image{
+  position: relative;
+}
+
+.free-Workout-video{
+  align-items: center;
+  gap: 10px ;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  width: 12rem;
+  height: 6rem;
+  position: absolute;
+  top: -300%;
+  left: 150%;
+  justify-content: center;
+  justify-items: center;
+  padding-left: 10px;
+}
+
+
+.free-Workout-video h4{
+  font-size: 40px;
+  font-weight: 900;
 }
