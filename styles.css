@@ -16,6 +16,7 @@ p{
 /* default styles */
 *{
   margin: 0;
+  padding: 0;
   color: white;
   
 }
@@ -60,7 +61,12 @@ header{
 .nav-menu{
   display: flex;
   justify-content: space-evenly;
-  gap: 47px;
+  justify-items: center;
+  align-items: center;
+  gap: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  padding: 10px;
 }
 
 .nav-menu span{
@@ -290,6 +296,7 @@ button{
  .row-1{
   display: grid;
   grid-template-columns: 0.75fr 1.50fr 1fr;
+  margin-top: 4rem;
   
 }
 
