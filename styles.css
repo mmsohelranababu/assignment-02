@@ -380,6 +380,7 @@ select{
 
 .bmi-calculator-chart, .chart-table, .bmi-title{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .bmi-calculator-main{
@@ -394,6 +395,116 @@ select{
 .calculator-inputs, .bmi-title p{
   margin-top: 14px;
 }
+
+/* Meet Our Team */
+
+.our-team-member{
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 1030px;
+  height: 604px;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.meet-our-team h1{
+  font-size: 48px;
+  font-weight: 900;
+
+}
+
+.meet-our-team-text{
+  text-align: center;
+}
+
+.our-team-member img{
+  width: 20rem;
+  height: 17rem;
+  border-radius: 18px;
+  margin: 10px;
+  
+
+}
+
+.trainer-row-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trainer{
+  position: relative;
+}
+
+.trainer-name{
+  position: absolute;
+  top: 80%;
+  left: 25%;  
+  color: white;
+  transform: translate(-50%,-50%);
+}
+.trainer-post{
+  position: absolute;
+  top: 87%;
+  left: 25%;  
+  color: white;
+  transform: translate(-70%,-50%);
+
+}
+
+/* Footer Related Styles */
+
+footer{
+  background: rgba(255, 255, 255, 0.1);
+  
+}
+
+.footer-main{
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  
+  
+}
+
+.footer, .get-started-1, .get-started-2{
+  margin-top: 4rem;
+}
+
+.footer p{
+  font-size: 14px;
+  font-weight: 400;
+  width: 443px;
+  margin-top: 20px;
+
+
+}
+
+.get-started-1 a, .get-started-2 a{
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  padding-top: 1rem;
+  
+}
+
+hr{
+  width: 80%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 20px auto;
+}
+
+
+.line h6{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  
+}
+
+
 
 
 
